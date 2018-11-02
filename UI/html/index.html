@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <title> Home:Cheap Parcel Delivery</title>
+    <link rel="stylesheet"  href="../css/styles.css">
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <ul>
+          <a href=""><img src="../img/delivery-logo.jpg"></a>
+          <li><a href="Admin_login.html">Admin?</a></li>
+          <li><a href="registration.html">Sign Up</a></li>
+          <li><a href="login.html">Log In</a></li>
+          <!-- <li><a href="profile.html">Profile</a></li> -->
+          <!-- <li><a href="make_order.html">Make An Order</a></li> -->
+          <!-- <li><a href="">Home</a></li> -->
+        </ul>
+      </nav>
+    </div>
+
+    <div class="main-body">
+
+      <div class="main-body-text">
+        <div class="authenticate">
+          <div id="main">
+            <div class="left-card">
+              <img src="../img/bckdimg.PNG" alt="Courier Image">
+              <h2><span>Welcome to SendIT Couriers</span><br>
+              <span>Make delivery orders and we</span><br>
+              <span>will serve you!</span></h2>
+            </div>
+            <div class="right-card">
+              <p>Make An Order</p>
+              <div class="parcel-section">
+                <form method="post" action="make_order.html">
+                  <label for="from">FROM:</label><br><br>
+                  <select>
+                    <option value="nairobi">Nairobi</option>
+                    <option value="nakuru">Nairobi</option>
+                    <option value="mombasa">Nairobi</option>
+                  </select>
+                <br><br>
+
+                  <label for="from">TO:</label><br><br>
+                  <select>
+                    <option value="nairobi">Mombasa</option>
+                    <option value="nakuru">Mombasa</option>
+                    <option value="mombasa">Mombasa</option>
+                  </select><br><br>
+
+                  <label for="description">DESCRIBE PARCEL</label><br>
+                  <input type="text" name="description" id="description"><br>
+
+                  <label for="Weight">ENTER WEIGHT</label><br>
+                  <input type="text" name="description" id="description"><br>
+
+                  <input type="submit" name="login"  value="Make Order">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+      <p>SendIT - Couriers @ 2018</p>
+    </div>
+
+  </body>
+
+</html>
