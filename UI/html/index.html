@@ -10,12 +10,9 @@
       <nav>
         <ul>
           <a href=""><img src="../img/delivery-logo.jpg"></a>
-          <li><a href="Admin_login.html">Admin?</a></li>
+          <li><a href="admin_login.html">Admin?</a></li>
           <li><a href="registration.html">Sign Up</a></li>
           <li><a href="login.html">Log In</a></li>
-          <!-- <li><a href="profile.html">Profile</a></li> -->
-          <!-- <li><a href="make_order.html">Make An Order</a></li> -->
-          <!-- <li><a href="">Home</a></li> -->
         </ul>
       </nav>
     </div>
@@ -26,37 +23,37 @@
         <div class="authenticate">
           <div id="main">
             <div class="left-card">
-              <img src="../img/bckdimg.PNG" alt="Courier Image">
+              <img src="../img/avatar.png" alt="Courier Image">
+              <hr>
               <h2><span>Welcome to SendIT Couriers</span><br>
               <span>Make delivery orders and we</span><br>
               <span>will serve you!</span></h2>
+              <hr>
             </div>
             <div class="right-card">
               <p>Make An Order</p>
               <div class="parcel-section">
-                <form method="post" action="make_order.html">
-                  <label for="from">FROM:</label><br><br>
-                  <select>
-                    <option value="nairobi">Nairobi</option>
-                    <option value="nakuru">Nairobi</option>
-                    <option value="mombasa">Nairobi</option>
-                  </select>
-                <br><br>
+                <form>
+                  <div class="form-container">
+                       <p>To make delivery order, please fill form below</p>
+                      <hr>
 
-                  <label for="from">TO:</label><br><br>
-                  <select>
-                    <option value="nairobi">Mombasa</option>
-                    <option value="nakuru">Mombasa</option>
-                    <option value="mombasa">Mombasa</option>
-                  </select><br><br>
+                      <label for="origin"><b>FROM :</b></label>
+                      <input placeholder="Parcel Origin" name="origin" required="" type="text">
 
-                  <label for="description">DESCRIBE PARCEL</label><br>
-                  <input type="text" name="description" id="description"><br>
+                      <label for="destination"><b>TO :</b></label>
+                      <input placeholder="Plarcel Destination " name="destination" required="" type="text">
 
-                  <label for="Weight">ENTER WEIGHT</label><br>
-                  <input type="text" name="description" id="description"><br>
+                      <label for="weight"><b>WEIGHT :</b></label>
+                      <input placeholder="e.g. 0.005kg" name="weight" id="description" type="text">
 
-                  <input type="submit" name="login"  value="Make Order">
+                      <label for="sent_to:"><b>DESCRIBE PARCEL :</b></label>
+                      <p>Please describe the parcel you intend to send.</p>
+                      <textarea></textarea>
+                      <hr>
+
+                      <button type="submit" class="registerbtn">Submit</button>
+                  </div>
                 </form>
               </div>
             </div>
