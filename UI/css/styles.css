@@ -50,6 +50,7 @@ li a {
 
 /* Home background */
 .main-body {
+  overflow: hidden;
   background-color: #FAF4E8;
   padding-top: 20px;
   height: 550px;
