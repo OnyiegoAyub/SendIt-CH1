@@ -52,15 +52,18 @@ li a {
 }
 
 /* Home background */
+/* .container {
+  height: 100;
+} */
 .main-body {
   background-color: #FAF4E8;
   padding-top: 10px;
-  height: 80%;
+  height: 60%;
 }
 
 .main-body-text {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 
 .footer {
@@ -123,7 +126,7 @@ font-weight: normal;
 
 .parcel-section {
   background:#ffffff;
-  padding:20px;
+  padding:15px;
   border-radius:5px 5px 0 0;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
   border-top: 2px solid #4B1E00;
@@ -209,6 +212,7 @@ font-size: 15px;
   /* margin-left: 40px; */
 }
 .right-card {
+  font-size: 15px;
   /* height: 500px; */
   /* padding-bottom: 20PX; */
   /* width: 1200px; */
@@ -243,6 +247,14 @@ button :hover{
 table {
   width: 100%;
 }
+
+.orders-info {
+  margin-left: 400px;
+  width: 40%;
+  font-size: 10px;
+  /* align-items: left; */
+}
+
 #orders td, #orders th {
     border: 1px solid #ddd;
     padding: 8px;
