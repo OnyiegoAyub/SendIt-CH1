@@ -10,6 +10,10 @@ SendIT is a courier service that helps users deliver parcels to different destin
   4. Users can cancel a parcel delivery order.
   5. Users can see the details of a delivery order.
   6. Admin can change the status and present location of a parcel delivery order.
+  
+## Accessing it
+  -Clone this repo to your machine, cd to UI then to html and open index.html in browser, or
+  - navigate 
 
 ## Built With
   - HTML
