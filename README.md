@@ -13,7 +13,7 @@ SendIT is a courier service that helps users deliver parcels to different destin
   
 ## Accessing it
   -Clone this repo to your machine, cd to UI then to html and open index.html in browser, or
-  - navigate 
+  - pen https://onyiegoayub.github.io/SendIt-CH1/ on your browser
 
 ## Built With
   - HTML
