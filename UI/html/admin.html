@@ -9,9 +9,8 @@
     <div class="header">
           <nav>
             <ul>
-              <a href=""><img src="../img/delivery-logo.jpg"></a>
+              <a href="index.html"><img src="../img/delivery-logo.jpg"></a>
               <li><a href="admin_login.html">Log Out</a></li>
-              <li><a href=".html">All Orders</a></li>
               <li><a href="index.html">Home</a></li>
             </ul>
           </nav>
@@ -19,26 +18,55 @@
 
     <div class="main-body">
       <div class="main-body-text">
-        <h2>Admin Dashboard<h2>
-
-          <div class="top-card">
-            <div class="parcel-section">
-              <a href="delivery_status.html">Change Delivery Status</a>
+        <div class="authenticate">
+          <div id="main">
+            <div class="left-card">
+              <img src="../img/avatar.png" alt="Courier Image">
+              <h2><span>Welcome to SendIT Couriers</span><br>
+              <span>Make delivery orders and we</span><br>
+              <span>will serve you!</span></h2>
             </div>
-          <div/><br>
+            <div class="right-card">
+              <p>Orders Made</p>
+              <div class="parcel-section">
+                <table id="orders">
+                    <th>Order Date</th>
+                    <th>Order No</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Price</th>
+                    <th>Status</th>
+                    <th>Update</th>
+                  </tr>
+                  <tr>
+                    <td>#</td>
+                    <td>1</td>
+                    <td>Nairobi</td>
+                    <td>Nakuru</td>
+                    <td>Sh.</td>
+                    <td><a href="delivery_status.html">Location</a></td>
+                    <td><a href="update_location.html">Location</a></td>
+                  </tr>
+                  <tr>
+                    <td>#</td>
+                    <td>2</td>
+                    <td>Kisumu</td>
+                    <td>Kitale</td>
+                    <td>Sh.</td>
+                    <td><a href="delivery_status.html">Location</a></td>
+                    <td><a href="update_location.html">Location</a></td>
+                  </tr>
+                </table>
+             </div>
+          </div>
 
-          <div/>
-          <div/><br>
-          <div class="bottom-card">
-            <div class="parcel-section">
-              <a href="update_location.html">Update Location</a>
-            </div>
-          <div/>
+          </div>
+
 
         </div>
-      </div>
-    </div>
+        </div>
 
+      </div>
     <div class="footer">
       <p>SendIT - Couriers @ 2018</p>
     </div>

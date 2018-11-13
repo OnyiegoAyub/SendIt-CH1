@@ -9,7 +9,7 @@
     <div class="header">
           <nav>
             <ul>
-              <a href=""><img src="../img/delivery-logo.jpg"></a>
+              <a href="index.html"><img src="../img/delivery-logo.jpg"></a>
               <li><a href="login.html">Log Out</a></li>
               <li><a href="make_order.html">Make An Order</a></li>
               <li><a href="index.html">Home</a></li>
@@ -21,26 +21,66 @@
       <div class="main-body-text">
         <div class="authenticate">
           <h2>My Dashboard<h2>
-
-            <div class="top-card">
-              <div class="parcel-section">
-                <a href="delivered_parcels.html">Delivered parcels</a>
-                <p></p>
+            <div id="main">
+              <div class="left-card">
+                <img src="../img/avatar.png" alt="Courier Image">
+                <h2><span>Welcome to SendIT Couriers</span><br>
+                <span>Make delivery orders and we</span><br>
+                <span>will serve you!</span></h2>
               </div>
-            <div/><br>
+              <div class="right-card">
+                <p>All My Orders</p>
 
-            <div class="midle-card">
-              <div class="parcel-section">
-                <a href="pending_deliveries.html">Pending Deliveries</a>
-              </div>
-            <!-- <div/> -->
-            <div/><br>
+                  <table  class="orders-info" id="orders">
+                    <tr>
+                      <td>Total Orders</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>Delivered</td>
+                      <td>1</td>
+                    </tr>
+                    <tr>
+                      <td>In-Transit</td>
+                      <td>1</td>
+                    </tr>
+                  </table>
 
-            <div class="bottom-card">
-              <div class="parcel-section">
-                <a href="all_delivery_orders.html">All Orders</a>
-              </div>
-            <div/>
+                <div class="parcel-section">
+
+                  <table id="orders">
+                      <th>Order Date</th>
+                      <th>Order No</th>
+                      <th>From</th>
+                      <th>To</th>
+                      <th>Status</th>
+                      <th>Change Destination</th>
+                      <th>Price</th>
+                      <th>Cancel</th>
+                    </tr>
+                    <tr>
+                      <td>#</td>
+                      <td>1</td>
+                      <td>Nairobi</td>
+                      <td>Nakuru</td>
+                      <td>Delivered</td>
+                      <td><a href="change_destination.html">Change</a></td>
+                      <td>Sh.</td>
+                      <td><a href="cancel_delivery.html">Delete</a></td>
+                    </tr>
+                    <tr>
+                      <td>#</td>
+                      <td>2</td>
+                      <td>Kisumu</td>
+                      <td>Kitale</td>
+                      <td>In-Transit</td>
+                      <td><a href="change_destination.html">Change</a></td>
+                      <td>Sh.</td>
+                      <td><a href="cancel_delivery.html">Delete</a></td>
+                    </tr>
+                  </table>
+               </div>
+            </div>
 
         </div>
 
